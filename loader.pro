@@ -1,3 +1,4 @@
+:- module(loader, [load_data/0]).
 :- use_module(library(csv)).
 load_food(FoodFile, FoodData) :-
 	% Food Diary: Date Time Type Title Comment 
